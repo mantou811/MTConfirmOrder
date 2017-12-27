@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MTConfirmOrder"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "My MTConfirmOrder."
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-   s.dependency "MTConfirmOrderServiceProtocol"
-   s.dependency "MTProtocolManager"
+   s.dependency "MTConfirmOrderServiceProtocol", '~> 0.0.1'
+   s.dependency "MTProtocolManager", '~> 0.0.1'
 end

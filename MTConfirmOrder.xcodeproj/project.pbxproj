@@ -14,6 +14,9 @@
 		8D32B3F01FF3AA57009D97A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D32B3EE1FF3AA57009D97A8 /* LaunchScreen.storyboard */; };
 		8D32B3F31FF3AA57009D97A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B3F21FF3AA57009D97A8 /* main.m */; };
 		8D32B3FD1FF3AA57009D97A8 /* MTConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B3FC1FF3AA57009D97A8 /* MTConfirmOrderUITests.m */; };
+		8D32B4121FF3AB84009D97A8 /* MTConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B40F1FF3AB84009D97A8 /* MTConfirmOrderViewController.m */; };
+		8D32B4131FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D32B4111FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.m */; };
+		9395A937189159AF04DF2B2B /* libPods-MTConfirmOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6468716FF635B58F4DAD13F4 /* libPods-MTConfirmOrder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6468716FF635B58F4DAD13F4 /* libPods-MTConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81777D282D427F0D009CE7A2 /* Pods-MTConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTConfirmOrder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTConfirmOrder/Pods-MTConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
+		85968AB7B39FBC2CED5EAF49 /* Pods-MTConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTConfirmOrder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTConfirmOrder/Pods-MTConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
 		8D32B3E01FF3AA57009D97A8 /* MTConfirmOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTConfirmOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B3E31FF3AA57009D97A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D32B3E41FF3AA57009D97A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +46,10 @@
 		8D32B3F81FF3AA57009D97A8 /* MTConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D32B3FC1FF3AA57009D97A8 /* MTConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTConfirmOrderUITests.m; sourceTree = "<group>"; };
 		8D32B3FE1FF3AA57009D97A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D32B40E1FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConfirmOrderServiceProvide.h; sourceTree = "<group>"; };
+		8D32B40F1FF3AB84009D97A8 /* MTConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTConfirmOrderViewController.m; sourceTree = "<group>"; };
+		8D32B4101FF3AB84009D97A8 /* MTConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTConfirmOrderViewController.h; sourceTree = "<group>"; };
+		8D32B4111FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTConfirmOrderServiceProvide.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9395A937189159AF04DF2B2B /* libPods-MTConfirmOrder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +71,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		326F110444AF16D8A301B277 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81777D282D427F0D009CE7A2 /* Pods-MTConfirmOrder.debug.xcconfig */,
+				85968AB7B39FBC2CED5EAF49 /* Pods-MTConfirmOrder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8D32B3D71FF3AA56009D97A8 = {
 			isa = PBXGroup;
 			children = (
 				8D32B3E21FF3AA57009D97A8 /* MTConfirmOrder */,
 				8D32B3FB1FF3AA57009D97A8 /* MTConfirmOrderUITests */,
 				8D32B3E11FF3AA57009D97A8 /* Products */,
+				326F110444AF16D8A301B277 /* Pods */,
+				B74FE4AAE54454158E908108 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +103,7 @@
 		8D32B3E21FF3AA57009D97A8 /* MTConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				8D32B4071FF3AB60009D97A8 /* MTConfirmOrder */,
 				8D32B3E31FF3AA57009D97A8 /* AppDelegate.h */,
 				8D32B3E41FF3AA57009D97A8 /* AppDelegate.m */,
 				8D32B3E61FF3AA57009D97A8 /* ViewController.h */,
@@ -103,6 +126,25 @@
 			path = MTConfirmOrderUITests;
 			sourceTree = "<group>";
 		};
+		8D32B4071FF3AB60009D97A8 /* MTConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				8D32B40E1FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.h */,
+				8D32B4111FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.m */,
+				8D32B4101FF3AB84009D97A8 /* MTConfirmOrderViewController.h */,
+				8D32B40F1FF3AB84009D97A8 /* MTConfirmOrderViewController.m */,
+			);
+			path = MTConfirmOrder;
+			sourceTree = "<group>";
+		};
+		B74FE4AAE54454158E908108 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6468716FF635B58F4DAD13F4 /* libPods-MTConfirmOrder.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D32B4011FF3AA57009D97A8 /* Build configuration list for PBXNativeTarget "MTConfirmOrder" */;
 			buildPhases = (
+				2896218E73F17918A96749DC /* [CP] Check Pods Manifest.lock */,
 				8D32B3DC1FF3AA57009D97A8 /* Sources */,
 				8D32B3DD1FF3AA57009D97A8 /* Frameworks */,
 				8D32B3DE1FF3AA57009D97A8 /* Resources */,
+				5E1B22A5192FF4711240A5DE /* [CP] Embed Pods Frameworks */,
+				CBE812747D02761EC8857615 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,14 +245,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2896218E73F17918A96749DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MTConfirmOrder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E1B22A5192FF4711240A5DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTConfirmOrder/Pods-MTConfirmOrder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE812747D02761EC8857615 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MTConfirmOrder/Pods-MTConfirmOrder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D32B3DC1FF3AA57009D97A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D32B4131FF3AB84009D97A8 /* MTConfirmOrderServiceProvide.m in Sources */,
 				8D32B3E81FF3AA57009D97A8 /* ViewController.m in Sources */,
 				8D32B3F31FF3AA57009D97A8 /* main.m in Sources */,
 				8D32B3E51FF3AA57009D97A8 /* AppDelegate.m in Sources */,
+				8D32B4121FF3AB84009D97A8 /* MTConfirmOrderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +453,13 @@
 		};
 		8D32B4021FF3AA57009D97A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81777D282D427F0D009CE7A2 /* Pods-MTConfirmOrder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B7BR7JE4;
 				INFOPLIST_FILE = MTConfirmOrder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTConfirmOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,10 +469,13 @@
 		};
 		8D32B4031FF3AA57009D97A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85968AB7B39FBC2CED5EAF49 /* Pods-MTConfirmOrder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75B7BR7JE4;
 				INFOPLIST_FILE = MTConfirmOrder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Long.MTConfirmOrder;
 				PRODUCT_NAME = "$(TARGET_NAME)";

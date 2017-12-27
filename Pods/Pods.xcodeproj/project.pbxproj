@@ -7,58 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89FA7D45B93C5F5F3E33727093BB57BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8C2A8424AC2A94DDBFDD3534D71D713D /* MTProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A0F1CB657DF495C22DE3F8A7583219 /* MTProtocolManager-dummy.m */; };
-		A2698EA386862D583E2A74F3195AB774 /* Pods-MTConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 996594E1939558618C4CF4EB07F33955 /* Pods-MTConfirmOrder-dummy.m */; };
-		CB8AC24FBB71581E47994B90215C7E0B /* MTProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CBAE8095B0999B8DFAA06B8F484852 /* MTProtocolManager.m */; };
-		F86A6AE015843407D26419AF94F3EB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FF9E0D7E58420CCFE5A72D1E1C2F9E3C /* MTProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 934726D7208652591FC7D95F5DF26E3B /* MTProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9A3B30A4AE834708AF931A776E2693 /* MTProtocolManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04756C8F93EB1102B29D4EEAA7CD1C62 /* MTProtocolManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839B1CA9A7D734E561679C007F9715ED /* Pods-MTConfirmOrder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2A96B3D4BE4C1671C94AC6DBC1D731 /* Pods-MTConfirmOrder-dummy.m */; };
+		994CAD51FBE9F9CEB608A006CE947B80 /* MTProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D866E27EF0C3B99CD4E123BD9F02ED /* MTProtocolManager.m */; };
+		A7DB253AE0A3E6095109F9F7FD0039EB /* Pods-MTConfirmOrder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8339ABD488DE2352B82D5D47128E3A42 /* Pods-MTConfirmOrder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE8B16DE8F7DD30FC1EE2E28B6FADA3C /* MTProtocolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F694D5D6874481F4492170896B356F2 /* MTProtocolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8318226488458A30581C7AA7E6A4CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE8D394BD656A20C0C911B5FD3ABE0C2 /* MTProtocolManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8AD9C00F43A8F410C1B3465DB8B11 /* MTProtocolManager-dummy.m */; };
+		F940843AA9281157081FD794D0346EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3EA782715BEB841EC3E201C9AD8358A2 /* PBXContainerItemProxy */ = {
+		E1D9467723C43D7862FA4FBBC1491A84 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6B8282F92E41630B69DD90648BF9F353;
+			remoteGlobalIDString = BAD9DA26CE482E08CBBB30D0B54D939E;
 			remoteInfo = MTProtocolManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		326DBCA8828E6F1A8AE62E544C715DE2 /* MTProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTProtocolManager.xcconfig; sourceTree = "<group>"; };
-		4B00075E8B3C6FBE03981DBEC232B0C9 /* MTProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTProtocolManager-prefix.pch"; sourceTree = "<group>"; };
-		55A0F1CB657DF495C22DE3F8A7583219 /* MTProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTProtocolManager-dummy.m"; sourceTree = "<group>"; };
+		04756C8F93EB1102B29D4EEAA7CD1C62 /* MTProtocolManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTProtocolManager-umbrella.h"; sourceTree = "<group>"; };
+		27420E8B6C70CE736F917A76D78DBB05 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2797A6845B8F0B08CDC495A11B017978 /* MTProtocolManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTProtocolManager-prefix.pch"; sourceTree = "<group>"; };
+		2A42B5AF2157102D60D13A8F81370579 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EB049E07C65EF6B30C02888E085932E /* Pods-MTConfirmOrder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTConfirmOrder-resources.sh"; sourceTree = "<group>"; };
+		41ED6085CD57A3DAB678434B3603DD85 /* Pods-MTConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		555DB9BCE5EAF145E7E3B279AB5BF3A5 /* Pods-MTConfirmOrder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTConfirmOrder-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		735B0A1CC4F70086B732EC19A55FFB55 /* Pods-MTConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
-		934726D7208652591FC7D95F5DF26E3B /* MTProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTProtocolManager.h; path = MTProtocolManager/MTProtocolManager/MTProtocolManager.h; sourceTree = "<group>"; };
+		6B83A77E7AC525671977B8483B8C086F /* Pods-MTConfirmOrder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTConfirmOrder-frameworks.sh"; sourceTree = "<group>"; };
+		6E2A96B3D4BE4C1671C94AC6DBC1D731 /* Pods-MTConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTConfirmOrder-dummy.m"; sourceTree = "<group>"; };
+		7F694D5D6874481F4492170896B356F2 /* MTProtocolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTProtocolManager.h; path = MTProtocolManager/MTProtocolManager/MTProtocolManager.h; sourceTree = "<group>"; };
+		8339ABD488DE2352B82D5D47128E3A42 /* Pods-MTConfirmOrder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTConfirmOrder-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		996594E1939558618C4CF4EB07F33955 /* Pods-MTConfirmOrder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTConfirmOrder-dummy.m"; sourceTree = "<group>"; };
-		9CB10E70434068C35CAC9A024CA86668 /* Pods-MTConfirmOrder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTConfirmOrder-frameworks.sh"; sourceTree = "<group>"; };
-		9D51E718243F58B9673FFA6CF15EB9CE /* libPods-MTConfirmOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MTConfirmOrder.a"; path = "libPods-MTConfirmOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1CBAE8095B0999B8DFAA06B8F484852 /* MTProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTProtocolManager.m; path = MTProtocolManager/MTProtocolManager/MTProtocolManager.m; sourceTree = "<group>"; };
-		B7ED8EE80C17CFFECA8836BC4131A013 /* libMTProtocolManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMTProtocolManager.a; path = libMTProtocolManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		941B98CD9A2F6007F252317758194C6A /* MTProtocolManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTProtocolManager.xcconfig; sourceTree = "<group>"; };
+		98FF3A8AC07B343EBDEA63D06091DA14 /* Pods_MTConfirmOrder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MTConfirmOrder.framework; path = "Pods-MTConfirmOrder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13F3D2F38367DD87316BF5DE0B33D01 /* Pods-MTConfirmOrder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTConfirmOrder-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF7C78AE733ABB9211A78965373E5751 /* Pods-MTConfirmOrder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTConfirmOrder.debug.xcconfig"; sourceTree = "<group>"; };
 		BA6B41CFFE048BB4ACE959EF69B39AA3 /* MTConfirmOrderServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTConfirmOrderServiceProtocol.h; path = MTConfirmOrderServiceProtocol/MTConfirmOrderServiceProtocol/MTConfirmOrderServiceProtocol.h; sourceTree = "<group>"; };
-		C27D3DF29C7E98570F88C8D2D4D8DE86 /* Pods-MTConfirmOrder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTConfirmOrder-acknowledgements.plist"; sourceTree = "<group>"; };
-		DAF8696E3906A1B26FFEF836D3D7EB36 /* Pods-MTConfirmOrder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTConfirmOrder-resources.sh"; sourceTree = "<group>"; };
-		F9E0DFC8B63FD9A52775BEEC78B9E54D /* Pods-MTConfirmOrder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTConfirmOrder-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FFC2EBDCCE5B72748357FE2D23C717A8 /* Pods-MTConfirmOrder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTConfirmOrder.release.xcconfig"; sourceTree = "<group>"; };
+		BF7D3EEDC87B56020B3BF7FBDD7F3D74 /* MTProtocolManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTProtocolManager.framework; path = MTProtocolManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D866E27EF0C3B99CD4E123BD9F02ED /* MTProtocolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTProtocolManager.m; path = MTProtocolManager/MTProtocolManager/MTProtocolManager.m; sourceTree = "<group>"; };
+		CF42ABB187BACD60089B6255108FF7BD /* MTProtocolManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MTProtocolManager.modulemap; sourceTree = "<group>"; };
+		D3493F519540F2DDBBC70C98E48C8FB0 /* Pods-MTConfirmOrder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MTConfirmOrder.modulemap"; sourceTree = "<group>"; };
+		FAA8AD9C00F43A8F410C1B3465DB8B11 /* MTProtocolManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTProtocolManager-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BB1B84FE901B239FB04A1801C0B12B0 /* Frameworks */ = {
+		4577E540D53A73610BB3C4ABBBCB2553 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86A6AE015843407D26419AF94F3EB49 /* Foundation.framework in Frameworks */,
+				C8318226488458A30581C7AA7E6A4CCB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E40CFC8B4E291733FC67FD04F01A690 /* Frameworks */ = {
+		AE9E40ECAA2605ED81E9B803012E8C62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89FA7D45B93C5F5F3E33727093BB57BA /* Foundation.framework in Frameworks */,
+				F940843AA9281157081FD794D0346EF6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				24A1D9EFAEEAB5557166AD1EA4A42064 /* MTConfirmOrderServiceProtocol */,
-				E780D8906D40D507B3494BE2ECB3E443 /* MTProtocolManager */,
+				90EA9AB9AADB030480FDBD971694914A /* MTProtocolManager */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -83,21 +91,26 @@
 			path = MTConfirmOrderServiceProtocol;
 			sourceTree = "<group>";
 		};
-		3D3F0ABD6F4EF5FC5BA984749EF3B581 /* Targets Support Files */ = {
+		6B7F9A478358F97C2917F8A5591C4F94 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7EB76F187216A56B75D3F4F1735CD37F /* Pods-MTConfirmOrder */,
+				2A42B5AF2157102D60D13A8F81370579 /* Info.plist */,
+				CF42ABB187BACD60089B6255108FF7BD /* MTProtocolManager.modulemap */,
+				941B98CD9A2F6007F252317758194C6A /* MTProtocolManager.xcconfig */,
+				FAA8AD9C00F43A8F410C1B3465DB8B11 /* MTProtocolManager-dummy.m */,
+				2797A6845B8F0B08CDC495A11B017978 /* MTProtocolManager-prefix.pch */,
+				04756C8F93EB1102B29D4EEAA7CD1C62 /* MTProtocolManager-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/MTProtocolManager";
 			sourceTree = "<group>";
 		};
-		4017F8567C460CEFC35B226726AEAEB1 /* Products */ = {
+		71596CFFD7C20D09813B673357BA4335 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B7ED8EE80C17CFFECA8836BC4131A013 /* libMTProtocolManager.a */,
-				9D51E718243F58B9673FFA6CF15EB9CE /* libPods-MTConfirmOrder.a */,
+				8E5D33AA60AAB23392007F9A139E3ACE /* Pods-MTConfirmOrder */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -106,35 +119,47 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				016A6B30C7771682A8B0334E1C518F03 /* Pods */,
-				4017F8567C460CEFC35B226726AEAEB1 /* Products */,
-				3D3F0ABD6F4EF5FC5BA984749EF3B581 /* Targets Support Files */,
+				83C49B0D949A982892B11D4B11F490EA /* Products */,
+				71596CFFD7C20D09813B673357BA4335 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EB76F187216A56B75D3F4F1735CD37F /* Pods-MTConfirmOrder */ = {
+		83C49B0D949A982892B11D4B11F490EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9E0DFC8B63FD9A52775BEEC78B9E54D /* Pods-MTConfirmOrder-acknowledgements.markdown */,
-				C27D3DF29C7E98570F88C8D2D4D8DE86 /* Pods-MTConfirmOrder-acknowledgements.plist */,
-				996594E1939558618C4CF4EB07F33955 /* Pods-MTConfirmOrder-dummy.m */,
-				9CB10E70434068C35CAC9A024CA86668 /* Pods-MTConfirmOrder-frameworks.sh */,
-				DAF8696E3906A1B26FFEF836D3D7EB36 /* Pods-MTConfirmOrder-resources.sh */,
-				735B0A1CC4F70086B732EC19A55FFB55 /* Pods-MTConfirmOrder.debug.xcconfig */,
-				FFC2EBDCCE5B72748357FE2D23C717A8 /* Pods-MTConfirmOrder.release.xcconfig */,
+				BF7D3EEDC87B56020B3BF7FBDD7F3D74 /* MTProtocolManager.framework */,
+				98FF3A8AC07B343EBDEA63D06091DA14 /* Pods_MTConfirmOrder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E5D33AA60AAB23392007F9A139E3ACE /* Pods-MTConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				27420E8B6C70CE736F917A76D78DBB05 /* Info.plist */,
+				D3493F519540F2DDBBC70C98E48C8FB0 /* Pods-MTConfirmOrder.modulemap */,
+				555DB9BCE5EAF145E7E3B279AB5BF3A5 /* Pods-MTConfirmOrder-acknowledgements.markdown */,
+				A13F3D2F38367DD87316BF5DE0B33D01 /* Pods-MTConfirmOrder-acknowledgements.plist */,
+				6E2A96B3D4BE4C1671C94AC6DBC1D731 /* Pods-MTConfirmOrder-dummy.m */,
+				6B83A77E7AC525671977B8483B8C086F /* Pods-MTConfirmOrder-frameworks.sh */,
+				3EB049E07C65EF6B30C02888E085932E /* Pods-MTConfirmOrder-resources.sh */,
+				8339ABD488DE2352B82D5D47128E3A42 /* Pods-MTConfirmOrder-umbrella.h */,
+				AF7C78AE733ABB9211A78965373E5751 /* Pods-MTConfirmOrder.debug.xcconfig */,
+				41ED6085CD57A3DAB678434B3603DD85 /* Pods-MTConfirmOrder.release.xcconfig */,
 			);
 			name = "Pods-MTConfirmOrder";
 			path = "Target Support Files/Pods-MTConfirmOrder";
 			sourceTree = "<group>";
 		};
-		80DE5D5E7D35D724F80127EBDE5F9844 /* Support Files */ = {
+		90EA9AB9AADB030480FDBD971694914A /* MTProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
-				326DBCA8828E6F1A8AE62E544C715DE2 /* MTProtocolManager.xcconfig */,
-				55A0F1CB657DF495C22DE3F8A7583219 /* MTProtocolManager-dummy.m */,
-				4B00075E8B3C6FBE03981DBEC232B0C9 /* MTProtocolManager-prefix.pch */,
+				7F694D5D6874481F4492170896B356F2 /* MTProtocolManager.h */,
+				C4D866E27EF0C3B99CD4E123BD9F02ED /* MTProtocolManager.m */,
+				6B7F9A478358F97C2917F8A5591C4F94 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/MTProtocolManager";
+			name = MTProtocolManager;
+			path = MTProtocolManager;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -153,38 +178,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E780D8906D40D507B3494BE2ECB3E443 /* MTProtocolManager */ = {
-			isa = PBXGroup;
-			children = (
-				934726D7208652591FC7D95F5DF26E3B /* MTProtocolManager.h */,
-				A1CBAE8095B0999B8DFAA06B8F484852 /* MTProtocolManager.m */,
-				80DE5D5E7D35D724F80127EBDE5F9844 /* Support Files */,
-			);
-			name = MTProtocolManager;
-			path = MTProtocolManager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B1EF06ED6F26F7B926F510DDD140EA05 /* Headers */ = {
+		7C94005EB1F92FA196D7ACAFF7E59514 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF9E0D7E58420CCFE5A72D1E1C2F9E3C /* MTProtocolManager.h in Headers */,
+				5E9A3B30A4AE834708AF931A776E2693 /* MTProtocolManager-umbrella.h in Headers */,
+				AE8B16DE8F7DD30FC1EE2E28B6FADA3C /* MTProtocolManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1E0184ECECF1A4A9EF618B3BF87CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DB253AE0A3E6095109F9F7FD0039EB /* Pods-MTConfirmOrder-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6B8282F92E41630B69DD90648BF9F353 /* MTProtocolManager */ = {
+		66F5240A0408ADD79258EC1F4A6F0996 /* Pods-MTConfirmOrder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3830A0FCEEFFA5EFA5BBA3AEE5753B5 /* Build configuration list for PBXNativeTarget "MTProtocolManager" */;
+			buildConfigurationList = 2C794083EA85323E59EE3A8AC67246A1 /* Build configuration list for PBXNativeTarget "Pods-MTConfirmOrder" */;
 			buildPhases = (
-				A93749402B009617ADCF1FE59404F1A5 /* Sources */,
-				7E40CFC8B4E291733FC67FD04F01A690 /* Frameworks */,
-				B1EF06ED6F26F7B926F510DDD140EA05 /* Headers */,
+				A1E8EE0A3D30E8240B68477D61C416E3 /* Sources */,
+				AE9E40ECAA2605ED81E9B803012E8C62 /* Frameworks */,
+				7CA1E0184ECECF1A4A9EF618B3BF87CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				563DC03BB82B454F7F471240C559FB3A /* PBXTargetDependency */,
+			);
+			name = "Pods-MTConfirmOrder";
+			productName = "Pods-MTConfirmOrder";
+			productReference = 98FF3A8AC07B343EBDEA63D06091DA14 /* Pods_MTConfirmOrder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BAD9DA26CE482E08CBBB30D0B54D939E /* MTProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8BEFD9862574C975C930750F180A05 /* Build configuration list for PBXNativeTarget "MTProtocolManager" */;
+			buildPhases = (
+				0C6FBA6F13B8AB4902330F37469C37BD /* Sources */,
+				4577E540D53A73610BB3C4ABBBCB2553 /* Frameworks */,
+				7C94005EB1F92FA196D7ACAFF7E59514 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -192,25 +233,8 @@
 			);
 			name = MTProtocolManager;
 			productName = MTProtocolManager;
-			productReference = B7ED8EE80C17CFFECA8836BC4131A013 /* libMTProtocolManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		6CBE8005F0A552B48FFC1E343A49C38B /* Pods-MTConfirmOrder */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3FB9DAC73A4191EBE0F1F8F8626779E4 /* Build configuration list for PBXNativeTarget "Pods-MTConfirmOrder" */;
-			buildPhases = (
-				CF1F3436069C2B7458E0C112D9E85E64 /* Sources */,
-				3BB1B84FE901B239FB04A1801C0B12B0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A0E41B6A826C959AE7B7659CCE83CAB1 /* PBXTargetDependency */,
-			);
-			name = "Pods-MTConfirmOrder";
-			productName = "Pods-MTConfirmOrder";
-			productReference = 9D51E718243F58B9673FFA6CF15EB9CE /* libPods-MTConfirmOrder.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = BF7D3EEDC87B56020B3BF7FBDD7F3D74 /* MTProtocolManager.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -229,129 +253,137 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4017F8567C460CEFC35B226726AEAEB1 /* Products */;
+			productRefGroup = 83C49B0D949A982892B11D4B11F490EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B8282F92E41630B69DD90648BF9F353 /* MTProtocolManager */,
-				6CBE8005F0A552B48FFC1E343A49C38B /* Pods-MTConfirmOrder */,
+				BAD9DA26CE482E08CBBB30D0B54D939E /* MTProtocolManager */,
+				66F5240A0408ADD79258EC1F4A6F0996 /* Pods-MTConfirmOrder */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A93749402B009617ADCF1FE59404F1A5 /* Sources */ = {
+		0C6FBA6F13B8AB4902330F37469C37BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2A8424AC2A94DDBFDD3534D71D713D /* MTProtocolManager-dummy.m in Sources */,
-				CB8AC24FBB71581E47994B90215C7E0B /* MTProtocolManager.m in Sources */,
+				DE8D394BD656A20C0C911B5FD3ABE0C2 /* MTProtocolManager-dummy.m in Sources */,
+				994CAD51FBE9F9CEB608A006CE947B80 /* MTProtocolManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF1F3436069C2B7458E0C112D9E85E64 /* Sources */ = {
+		A1E8EE0A3D30E8240B68477D61C416E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2698EA386862D583E2A74F3195AB774 /* Pods-MTConfirmOrder-dummy.m in Sources */,
+				839B1CA9A7D734E561679C007F9715ED /* Pods-MTConfirmOrder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A0E41B6A826C959AE7B7659CCE83CAB1 /* PBXTargetDependency */ = {
+		563DC03BB82B454F7F471240C559FB3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MTProtocolManager;
-			target = 6B8282F92E41630B69DD90648BF9F353 /* MTProtocolManager */;
-			targetProxy = 3EA782715BEB841EC3E201C9AD8358A2 /* PBXContainerItemProxy */;
+			target = BAD9DA26CE482E08CBBB30D0B54D939E /* MTProtocolManager */;
+			targetProxy = E1D9467723C43D7862FA4FBBC1491A84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		31AF2E139C25A27F66317D40B3C42CB9 /* Debug */ = {
+		0B97B62DFAB124FDC38E289DD761A7FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 735B0A1CC4F70086B732EC19A55FFB55 /* Pods-MTConfirmOrder.debug.xcconfig */;
+			baseConfigurationReference = 41ED6085CD57A3DAB678434B3603DD85 /* Pods-MTConfirmOrder.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTConfirmOrder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTConfirmOrder/Pods-MTConfirmOrder.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTConfirmOrder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5FF7C826D4B5F6C27EBE07C204FB0CE9 /* Release */ = {
+		11C2CE321FE8DBA05EEF9C2D6700EE7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 326DBCA8828E6F1A8AE62E544C715DE2 /* MTProtocolManager.xcconfig */;
+			baseConfigurationReference = 941B98CD9A2F6007F252317758194C6A /* MTProtocolManager.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/MTProtocolManager/MTProtocolManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				INFOPLIST_FILE = "Target Support Files/MTProtocolManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTProtocolManager/MTProtocolManager.modulemap";
+				PRODUCT_NAME = MTProtocolManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42ECC5C813C1A661BEF01A38425C2951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941B98CD9A2F6007F252317758194C6A /* MTProtocolManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTProtocolManager/MTProtocolManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTProtocolManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTProtocolManager/MTProtocolManager.modulemap";
+				PRODUCT_NAME = MTProtocolManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		77CFB5A558EA004290BCF0A0173EFBE2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFC2EBDCCE5B72748357FE2D23C717A8 /* Pods-MTConfirmOrder.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B0EF293423404885FB587178BB1BD3FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 326DBCA8828E6F1A8AE62E544C715DE2 /* MTProtocolManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MTProtocolManager/MTProtocolManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -468,9 +500,50 @@
 			};
 			name = Debug;
 		};
+		EB664C7D9B7A0E29B9027CED11A6A6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7C78AE733ABB9211A78965373E5751 /* Pods-MTConfirmOrder.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTConfirmOrder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTConfirmOrder/Pods-MTConfirmOrder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MTConfirmOrder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2C794083EA85323E59EE3A8AC67246A1 /* Build configuration list for PBXNativeTarget "Pods-MTConfirmOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB664C7D9B7A0E29B9027CED11A6A6E7 /* Debug */,
+				0B97B62DFAB124FDC38E289DD761A7FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -480,20 +553,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FB9DAC73A4191EBE0F1F8F8626779E4 /* Build configuration list for PBXNativeTarget "Pods-MTConfirmOrder" */ = {
+		6C8BEFD9862574C975C930750F180A05 /* Build configuration list for PBXNativeTarget "MTProtocolManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31AF2E139C25A27F66317D40B3C42CB9 /* Debug */,
-				77CFB5A558EA004290BCF0A0173EFBE2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3830A0FCEEFFA5EFA5BBA3AEE5753B5 /* Build configuration list for PBXNativeTarget "MTProtocolManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B0EF293423404885FB587178BB1BD3FA /* Debug */,
-				5FF7C826D4B5F6C27EBE07C204FB0CE9 /* Release */,
+				11C2CE321FE8DBA05EEF9C2D6700EE7B /* Debug */,
+				42ECC5C813C1A661BEF01A38425C2951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

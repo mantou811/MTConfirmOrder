@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6B8282F92E41630B69DD90648BF9F353'
+               BlueprintIdentifier = 'BAD9DA26CE482E08CBBB30D0B54D939E'
                BlueprintName = 'MTProtocolManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libMTProtocolManager.a'>
+               BuildableName = 'MTProtocolManager.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
